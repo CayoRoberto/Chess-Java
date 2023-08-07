@@ -4,22 +4,22 @@ public class Position {
 
 	private int row;
 	private int column;
-	public Position(int linha, int coluna) {
+	public Position(int row, int column) {
 		super();
-		this.row = linha;
-		this.column = coluna;
+		this.row = row;
+		this.column = column;
 	}
-	public int getLinha() {
+	public int getRow() {
 		return row;
 	}
-	public void setLinha(int linha) {
-		this.row = linha;
+	public void setRow(int row) {
+		this.row = row;
 	}
-	public int getColuna() {
+	public int getColumn() {
 		return column;
 	}
-	public void setColuna(int coluna) {
-		this.column = coluna;
+	public void setColumn(int column) {
+		this.column = column;
 	}
 	
 	@Override

@@ -3,16 +3,16 @@ package boardgame;
 public class Piece {
 
 	protected Position position;
-	private Piece piece;
+	private Board board;
 	
-	public Piece(Piece piece) {
+	public Piece(Board board) {
 		super();
-		this.piece = piece;
+		this.board = board;
 		position = null;
 	}
 
-	protected Position getPosition() {
-		return position;
+	protected Board getBoard() {
+		return board;
 	}
 
 	
