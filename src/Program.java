@@ -1,10 +1,10 @@
-import boardgame.Posicao;
+import boardgame.Position;
 
-public class Programa {
+public class Program {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Posicao pos = new Posicao(3,2);
+		Position pos = new Position(3,2);
 		System.out.println(pos);
 	}
 
