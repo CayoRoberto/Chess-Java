@@ -15,7 +15,7 @@ public class Board {
 	public int getRows() {
 		return rows;
 	}
-	public void setRows(int linhas) {
+	public void setRows(int rows) {
 		this.rows = rows;
 	}
 	public int getColumns() {
@@ -33,4 +33,8 @@ public class Board {
 		return pieces[position.getRow()][position.getColumn()];
 	}
 	
+	public void placePiece(Piece piece, Position position) {
+		pieces[position.getRow()][position.getColumn()] = piece;
+		piece.position = position;
+	}
 }
